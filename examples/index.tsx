@@ -15,6 +15,7 @@ import InterpolateExampleScreen from './Interpolate';
 import StaggerExampleScreen from './Stagger';
 import EasingsExampleScreen from './Easings';
 import StyleExampleScreen from './Style';
+import AccordionExample from './Accordion/AccordionScreen';
 import InteractionsExampleScreen from './Interactions';
 // import SvgExampleScreen from "./SVG";
 import RepeatExampleScreen from './Repeating';
@@ -28,6 +29,7 @@ import {StyleSheet} from 'react-native';
 
 const Stack = createStackNavigator({
   home: HomeScreen,
+  accordion: AccordionExample,
   styles: StylesExampleScreen,
   text: TextExampleScreen,
   interpolate: InterpolateExampleScreen,

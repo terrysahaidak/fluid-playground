@@ -1,7 +1,7 @@
-import React, { useState, useCallback } from "react";
-import Fluid from "react-native-fluid-transitions";
-import { StyleSheet, View, Text } from "react-native";
-import * as Colors from "../colors";
+import React, {useState, useCallback} from 'react';
+import Fluid from 'react-native-fluid-transitions';
+import {StyleSheet, View, Text} from 'react-native';
+import * as Colors from '../colors';
 
 const boxStyles = [
   {
@@ -33,7 +33,7 @@ const boxStyles = [
     height: 200,
     backgroundColor: Colors.ColorE,
     borderRadius: 50,
-    transform: [{ rotate: "180deg" }],
+    transform: [{rotate: '180deg'}],
   },
 ];
 
@@ -63,7 +63,7 @@ const StyleExampleScreen = () => {
 };
 
 StyleExampleScreen.navigationOptions = {
-  title: "Style",
+  title: 'Style',
 };
 
 const styles = StyleSheet.create({
@@ -71,13 +71,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
     flex: 1,
   },
   separator: {
     height: 1,
-    borderTopColor: "#444",
+    borderTopColor: '#444',
     borderTopWidth: StyleSheet.hairlineWidth,
   },
   text: {
@@ -86,9 +86,9 @@ const styles = StyleSheet.create({
   styleText: {
     margin: 10,
     padding: 10,
-    borderColor: "#666",
+    borderColor: '#666',
     borderWidth: StyleSheet.hairlineWidth,
-    fontFamily: "Courier New",
+    fontFamily: 'Courier New',
   },
 });
 
